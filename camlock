@@ -6,7 +6,7 @@ game.StarterGui:SetCore("SendNotification", {
 
 print('spacex.cc | LOADED SCRIPT');
 
-getgenv().keytoclick = "Q | spacex"
+getgenv().keytoclick = "Q"
 tool = Instance.new("Tool")
 tool.RequiresHandle = false
 tool.Name = keytoclick
@@ -29,7 +29,7 @@ player.CharacterRemoving:Connect(function()
 end)
 
 getgenv().AimPart = "HumanoidRootPart" -- For R15 Games: {UpperTorso, LowerTorso, HumanoidRootPart, Head} | For R6 Games: {Head, Torso, HumanoidRootPart}
-getgenv().AimlockKey = "Q | spacex"
+getgenv().AimlockKey = "Q"
 getgenv().AimRadius = 30 
 getgenv().ThirdPerson = true 
 getgenv().FirstPerson = true
