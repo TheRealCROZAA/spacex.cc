@@ -1,6 +1,6 @@
 game.StarterGui:SetCore("SendNotification", {
-    Title = "spaces.cc";
-    Text = "SCRIPT LOADED";
+    Title = "spacex.cc";
+    Text = "spacex.cc";
 
 })
 
